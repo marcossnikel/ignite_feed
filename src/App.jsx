@@ -12,7 +12,7 @@ export function App() {
         <Sidebar />
         <main>
           <Post author="marcos nikel" content="hahahaha" />
-          <Post author="livia" content="sql" />
+          <Post />
         </main>
       </div>
     </div>
