@@ -5,7 +5,7 @@ import { Avatar } from "./Avatar";
 import styles from "./Post.module.css";
 import { ChangeEvent, FormEvent, InvalidEvent, useState } from "react";
 
-interface Author {
+export interface Author {
   name: string;
   role: string;
   avatarUrl: string;

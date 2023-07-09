@@ -11,7 +11,7 @@ export function App() {
       author: {
         avatarUrl: "https://github.com/marcossnikel.png",
         name: "Marcos Nikel",
-        role: "FrontEnd Software Developer",
+        role: "Frontend Engineer",
       },
       publishedAt: new Date("2023-07-06 21:03:00"),
       content: [
@@ -52,7 +52,11 @@ export function App() {
     <div>
       <Header />
       <div className={styles.wrapper}>
-        <Sidebar />
+        <Sidebar
+          name="Marcos Nike"
+          role="Frontend Engineer"
+          avatarUrl="https://github.com/marcossnikel.png"
+        />
         <main>
           {posts.map((post) => (
             <Post key={post.id} post={post} />
