@@ -1,5 +1,7 @@
 # Ignite Feed 🔥🔥🔥
 
+## TO-DO [] : Finish README
+
 > An social meedia page made to improve reactjs and typescript skills
 
 ![Project Preview](./src/assets/project.png)
